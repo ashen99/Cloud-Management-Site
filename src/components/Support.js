@@ -64,10 +64,10 @@ const Support = () => {
                                     <p className="fs-5">{description}</p>
                                 </div>
                                 <div className="card-footer text-body-secondary">
-                  <span style={{color: "#4540e1"}}>
-                    Contact us{" "}
-                      <BiRightArrowAlt style={{fontSize: "1.5rem"}}/>{" "}
-                  </span>
+                                    <span style={{color: "#4540e1"}}>
+                                    Contact us{" "}
+                                        <BiRightArrowAlt style={{fontSize: "1.5rem"}}/>{" "}
+                                    </span>
                                 </div>
                             </div>
                         </div>

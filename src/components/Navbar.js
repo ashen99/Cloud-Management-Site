@@ -1,4 +1,6 @@
 import React from "react";
+import {Link} from "react-scroll";
+
 
 const Navbar = () => {
     return (
@@ -28,29 +30,41 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#">
-                                    Home
-                                </a>
+                                <Link to="home" smooth duration={500}>
+                                    <a className="nav-link active" aria-current="page" href="/">
+                                        Home
+                                    </a>
+                                </Link>
+
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">
-                                    About
-                                </a>
+                                <Link to="about" smooth duration={500}>
+                                    <a className="nav-link" href="/">
+                                        About
+                                    </a>
+                                </Link>
+
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">
-                                    Support
-                                </a>
+                                <Link to="support" smooth duration={500}>
+                                    <a className="nav-link" href="/">
+                                        Support
+                                    </a>
+                                </Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">
-                                    Platforms
-                                </a>
+                                <Link to="platform" smooth duration={500}>
+                                    <a className="nav-link" href="/">
+                                        Platforms
+                                    </a>
+                                </Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">
-                                    Pricing
-                                </a>
+                                <Link to="pricing" smooth duration={500}>
+                                    <a className="nav-link" href="/">
+                                        Pricing
+                                    </a>
+                                </Link>
                             </li>
                         </ul>
                         <div className="d-flex">

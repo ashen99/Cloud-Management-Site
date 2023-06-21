@@ -7,7 +7,7 @@ import {HiPaperAirplane} from 'react-icons/hi';
 
 const Hero = () => {
     return (
-        <div style={{backgroundColor: "#F4F5F6"}}>
+        <div name="home" style={{backgroundColor: "#F4F5F6"}}>
             <div className="container pt-5">
                 <div className="row row-cols-md-2 row-cols-sm-1 align-items-center pt-5">
                     <div className="col">

@@ -11,26 +11,26 @@ const Support = () => {
             title: "Sales",
             description:
                 "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-            icon: <BsTelephone style={{fontSize: "2rem", color: "white"}}/>,
+            icon: <BsTelephone style={{fontSize: "1.7rem", color: "white"}}/>,
         },
         {
             id: 2,
             title: "Technical Support",
             description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-            icon: <MdOutlineSupport style={{fontSize: "2rem", color: "white"}}/>,
+            icon: <MdOutlineSupport style={{fontSize: "1.7rem", color: "white"}}/>,
         },
         {
             id: 3,
             title: "Media Inquiries",
             description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-            icon: <BiChip style={{fontSize: "2rem", color: "white"}}/>,
+            icon: <BiChip style={{fontSize: "1.7rem", color: "white"}}/>,
         },
     ];
 
     return (
-        <div style={{backgroundColor: "#010B48", opacity: "86%"}}>
+        <div name="support" style={{backgroundColor: "#010B48", opacity: "86%"}}>
             <div className="container">
                 <div className="row text-center align-items-center pt-5 text-white pb-5">
                     <p className="fw-light fs-4">SUPPORT</p>

@@ -52,16 +52,16 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className="row text-white">
+                <div className="row text-secondary">
                     <hr/>
                     <div className="col">
                         <div className="d-flex mb-3">
                             <div className="me-auto p-2">2022 Workflow, LLC. All right reserved.</div>
-                            <div className="p-2"><FaFacebook style={{fontSize: "1.3rem",}}/></div>
-                            <div className="p-2"><FaInstagram style={{fontSize: "1.3rem",}}/></div>
-                            <div className="p-2"><FaTwitter style={{fontSize: "1.3rem",}}/></div>
-                            <div className="p-2"><FaTwitch style={{fontSize: "1.3rem",}}/></div>
-                            <div className="p-2"><FaGithub style={{fontSize: "1.3rem",}}/></div>
+                            <div className="p-2" role='button'><FaFacebook style={{fontSize: "1.3rem",}}/></div>
+                            <div className="p-2" role='button'><FaInstagram style={{fontSize: "1.3rem",}}/></div>
+                            <div className="p-2" role='button'><FaTwitter style={{fontSize: "1.3rem",}}/></div>
+                            <div className="p-2" role='button'><FaTwitch style={{fontSize: "1.3rem",}}/></div>
+                            <div className="p-2" role='button'><FaGithub style={{fontSize: "1.3rem",}}/></div>
                         </div>
                     </div>
                 </div>

@@ -9,7 +9,7 @@ const Pricing = () => {
     }
 
     return (
-        <div style={styles}>
+        <div name="pricing" style={styles}>
             <div className="container pb-5">
                 <div className="row text-center text-white align-items-center pt-5 pb-5">
                     <p className="fw-light fs-4">PRICING</p>
@@ -83,8 +83,8 @@ const Pricing = () => {
                                                                         }}/>dignissimos ducimus qui blanditiis
                                     </p>
                                 </div>
-                                <a className="btn mt-3 p-2"
-                                   style={{backgroundColor: "#060523", color: "white", width: "100%"}}>Get Started</a>
+                                <p className="btn mt-3 p-2"
+                                   style={{backgroundColor: "#060523", color: "white", width: "100%"}}>Get Started</p>
                             </div>
                         </div>
                     </div>
@@ -147,8 +147,8 @@ const Pricing = () => {
                                                                         }}/>dignissimos ducimus qui blanditiis
                                     </p>
                                 </div>
-                                <a className="btn mt-3 p-2"
-                                   style={{backgroundColor: "#060523", color: "white", width: "100%"}}>Get Started</a>
+                                <p className="btn mt-3 p-2"
+                                   style={{backgroundColor: "#060523", color: "white", width: "100%"}}>Get Started</p>
                             </div>
                         </div>
                     </div>

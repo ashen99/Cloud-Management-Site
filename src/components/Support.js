@@ -10,21 +10,21 @@ const Support = () => {
             id: 1,
             title: "Sales",
             description:
-                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknownprinter took a galley of type and scrambled it to make atype specimen book.",
+                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
             icon: <BsTelephone style={{fontSize: "2rem", color: "white"}}/>,
         },
         {
             id: 2,
             title: "Technical Support",
             description:
-                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknownprinter took a galley of type and scrambled it to make atype specimen book.",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
             icon: <MdOutlineSupport style={{fontSize: "2rem", color: "white"}}/>,
         },
         {
             id: 3,
             title: "Media Inquiries",
             description:
-                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknownprinter took a galley of type and scrambled it to make atype specimen book.",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
             icon: <BiChip style={{fontSize: "2rem", color: "white"}}/>,
         },
     ];

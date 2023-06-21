@@ -4,7 +4,7 @@ const Navbar = () => {
     return (
         <div>
             <nav
-                className="navbar navbar-expand-md shadow"
+                className="navbar fixed-top navbar-expand-md shadow"
                 style={{backgroundColor: "#F4F5F6"}}
             >
                 <div className="container-fluid">
